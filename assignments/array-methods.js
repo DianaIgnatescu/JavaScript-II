@@ -117,7 +117,7 @@ runners.forEach(function(contact) {
 console.log(getDetails);
 
 // Problem 3
-//The manager has asked to see a list of all participating companies. Create a new array called companyList that contains all the company names in alphabetical order.
+//The manager has asked to see a list of all participating companies. Create a new array called companyList that contains all the company names in alphabetical order. The array must not include duplicate elements. 
 
 let companyList = [];
 
