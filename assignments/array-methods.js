@@ -105,6 +105,7 @@ let largestDonations = []
 largestDonations = runners.filter(donationAmount => donationAmount.donation > 200);
 
 console.log(largestDonations);
+
 // Problem 2
 // The organizers need to email every runner with information regarding the day of the event. Populate the getDetails array with the first name of each runner along with their email address.
 

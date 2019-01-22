@@ -10,6 +10,17 @@ let dividedValue = divideFunction(24);
 
 console.log(dividedValue);
 
+
+//version 2
+
+let zodiacSign = 'Leo' 
+
+function getZodiacSign () {
+  console.log( `I'm a ${zodiacSign} !`);
+}
+
+getZodiacSign();
+
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
   // Return a function that when invoked increments and returns a counter variable.
